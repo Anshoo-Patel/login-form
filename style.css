@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS for container */
+.container{
+    height: 100vh;
+    width: 100%;
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(55,55,55,0.5) 0%);
+}
+
+.login-box{
+    width: 320px;
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(50,50,50);
+    color: white;
+    padding: 30px 30px;
+}
+
+img{
+    height: 71px;
+    width: 71px;
+    position: absolute;
+    top: -41px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+form{
+    padding-top: 20px;
+}
+
+h1{
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+label{
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"]{
+        border: none;
+        border-bottom: 1px solid white;
+        background: transparent;
+        height: 40px;
+        outline: none;
+        color: #fff;
+}
+
+button{
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+    background: #fb2525;
+    height: 40px;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 40px;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    color: darkgray;
+    display: block;
+    line-height: 20px;
+}
+
+a:hover{
+    color: #ffc107;
+}
+
+/* CSS for links */
+.link{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+}
+#face{
+    
+    top: 71%;
+    left: 47%;
+}
+#ins{
+    top: 71%;
+    left: 50%;
+}
+#twi{
+    top: 71%;
+    left: 53%;
+}
